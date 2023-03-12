@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display:flex;
+    height:100vh;
+    background-color:yellow;
+}
+.container{
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(4,7vw);
+    grid-template-rows: repeat(4,15vh);
+    width:28vw;
+    margin: 30vh auto;
+    height:60vh;
+    background-color:orange;
+}
+
+#part1{
+    margin: 10vh auto 0;
+    font-family: 'Tilt Neon', cursive;
+    position: absolute;
+    background-color: rgb(185, 207, 212);
+    height: 20vh;
+    width: 27.8vw;
+    left: 36vw;
+    border: 2px solid black;
+    border-bottom: 0;
+    font-size: 8vh;
+
+}
+.container div{
+    display: flex;
+    font-family: 'Tilt Neon', cursive;
+    border: 2px solid black;
+    font-size: 4vw;
+    cursor : pointer;
+    justify-content: center;
+    align-items: center;
+
+}
